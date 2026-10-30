@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LE KED — Portfolio</title>
+<meta name="description" content="Portfolio de LE KED, étudiant en systèmes d'information passionné d'informatique et de cybersécurité.">
+<meta name="theme-color" content="#1d4ed8">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#accueil">Aller au contenu</a>
+
+<header class="header" id="header">
+  <nav class="nav container" aria-label="Navigation principale">
+    <a class="logo" href="#accueil" aria-label="LE KED — Accueil">
+      <img src="assets/logo-le-ked.png" alt="" width="48" height="48"><span>LE KED</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <ul class="menu" id="menu">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#parcours">Parcours</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#reseaux">Réseaux sociaux</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1>Kevine ADOUM-DOUNGOUS</h1>
+      <p class="role">Étudiant en systèmes d'information | Passionné d'informatique et de cybersécurité.</p>
+      <blockquote>« Je développe mes compétences, je construis mes projets et je prépare les solutions numériques de demain. »</blockquote>
+      <div class="actions">
+        <a class="btn btn-primary" href="#projets">Découvrir mes projets</a>
+        <a class="btn btn-ghost" href="#contact">Me contacter</a>
+        
+      </div>
+    </div>
+    <div class="photo-frame">
+      <!-- Remplacez assets/photo-le-ked.jpg par votre photo (voir README) -->
+      <img src="assets/photo-le-ked.jpg" alt="Portrait de LE KED" width="480" height="560" fetchpriority="high"
+           onerror="this.remove()">
+      <span class="photo-fallback" aria-hidden="true">LK</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="apropos">
+  <div class="container about reveal">
+    <div>
+      <h2>À propos</h2>
+      <p>Je suis Kevine ADOUM-DOUNGOUS, étudiant en systèmes d'information et passionné par les technologies numériques. Je m'intéresse au fonctionnement des systèmes informatiques, à la programmation, aux réseaux et à la cybersécurité.</p>
+      <p>À travers mes études et mes projets personnels, je cherche à développer mes compétences, à résoudre des problèmes concrets et à concevoir des solutions numériques utiles.</p>
+      <p>Mon objectif est de continuer à apprendre, à expérimenter et à construire progressivement mon parcours dans le domaine informatique.</p>
+    </div>
+    <div class="terminal" aria-hidden="true">
+      <div class="dots"><i></i><i></i><i></i></div>
+<pre><b>$</b> whoami
+le-ked
+Monsieur ked
+<b>$</b> cat objectifs.txt
+apprendre
+expérimenter
+construire
+<b>$</b> _</pre>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="parcours">
+  <div class="container">
+    <h2 class="reveal">Parcours</h2>
+    <p class="lead reveal">Mon parcours scolaire, tel qu'il figure sur mon CV.</p>
+    <ol class="timeline">
+      <li class="reveal"><span class="year">En cours</span><div><h3>Études en systèmes d'information</h3><p>Apprentissage de la programmation, des bases de données, des systèmes et des réseaux.</p></div></li>
+      <li class="reveal"><span class="year">2025</span><div><h3>Baccalauréat série B</h3><p>Lycée Don Bosco de Damala, Bangui (de la seconde à la terminale B, 2022-2025).</p></div></li>
+      <li class="reveal"><span class="year">2021</span><div><h3>Brevet de Collège (B.C)</h3><p>Lycée Don Bosco de Damala, Bangui (de la 6ème à la 3ème, 2018-2021).</p></div></li>
+      <li class="reveal"><span class="year">2018</span><div><h3>Certificat d'Étude du Fondamental 1 (CEF1)</h3><p>École Don Bosco de Galabadja.</p></div></li>
+    </ol>
+    <div class="grid grid-2 extra">
+      <article class="card reveal"><h3>Langues</h3><p>Français : lu, parlé et écrit.<br>Anglais : lu et parlé, niveau scolaire.</p></article>
+      <article class="card reveal"><h3>Qualités</h3><p>Honnêteté, discrétion, flexibilité, esprit d'équipe et initiative.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="competences">
+  <div class="container">
+    <h2 class="reveal">Compétences</h2>
+    <p class="lead reveal">Les domaines que j'étudie et que je pratique, en cours d'apprentissage.</p>
+    <div class="grid grid-4">
+      <article class="card reveal">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+        <h3>Programmation</h3>
+        <p>Écriture de code et création de pages web, les bases de:</p>
+        <ul class="tags"><li>Python</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+      </article>
+      <article class="card reveal">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+        <h3>Bases de données</h3>
+        <p>Organisation et interrogation des données.</p>
+        <ul class="tags"><li>SQL</li><li>Gestion des bases de données</li></ul>
+      </article>
+      <article class="card reveal">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg>
+        <h3>Systèmes</h3>
+        <p>Utilisation et prise en main de systèmes d'exploitation.</p>
+        <ul class="tags"><li>Linux</li><li>Windows</li><li>Notions d'administration système</li></ul>
+      </article>
+      <article class="card reveal">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.2 8 8 9 4.8-1 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+        <h3>Réseaux et cybersécurité</h3>
+        <p>Comprendre comment les systèmes communiquent et se protègent.</p>
+        <ul class="tags"><li>Fondamentaux des réseaux</li><li>Notions de cybersécurité</li><li>Sécurité des systèmes et réseaux</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="projets">
+  <div class="container">
+    <h2 class="reveal">Mes projets</h2>
+    <p class="lead reveal">Projets réalisés ou en cours. Les liens seront ajoutés au fur et à mesure.</p>
+    <div class="grid grid-2">
+      <article class="card project reveal">
+        <div class="thumb"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg></div>
+        <span class="status">En cours</span>
+        <h3>Portfolio LE KED</h3>
+        <p>Site personnel développé en HTML, CSS et JavaScript.</p>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        <!-- Ajoutez le lien de votre dépôt GitHub dans href -->
+        <a class="btn btn-ghost" href="#" data-soon>Voir le code source</a>
+      </article>
+      <article class="card project reveal">
+        <div class="thumb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg></div>
+        <span class="status">À venir</span>
+        <h3>Projet Python</h3>
+        <p>Application ou outil développé pour pratiquer la programmation.</p>
+        <ul class="tags"><li>Python</li></ul>
+        <a class="btn btn-ghost" href="#" data-soon>Bientôt disponible</a>
+      </article>
+      <article class="card project reveal">
+        <div class="thumb"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v5M12 12l-6 5M12 12l6 5"/></svg></div>
+        <span class="status">À venir</span>
+        <h3>Projet réseau</h3>
+        <p>Travaux pratiques sur les réseaux informatiques et leur configuration.</p>
+        <ul class="tags"><li>Réseaux</li><li>Configuration</li></ul>
+        <a class="btn btn-ghost" href="#" data-soon>Bientôt disponible</a>
+      </article>
+      <article class="card project reveal">
+        <div class="thumb"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.2 8 8 9 4.8-1 8-4.5 8-9V6l-8-3Z"/></svg></div>
+        <span class="status">À venir</span>
+        <h3>Projet cybersécurité</h3>
+        <p>Laboratoire pédagogique consacré à l'apprentissage de la sécurité informatique dans un environnement autorisé.</p>
+        <ul class="tags"><li>Cybersécurité</li><li>Laboratoire</li></ul>
+        <a class="btn btn-ghost" href="#" data-soon>Bientôt disponible</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="reseaux">
+  <div class="container">
+    <h2 class="reveal">Retrouvez-moi sur les réseaux</h2>
+    <div class="grid grid-3">
+      <a class="card social reveal" href="https://t.me/Leked19" target="_blank" rel="noopener noreferrer" style="--c:#229ED9">
+        <i class="brand" style="--i:telegram"></i><h3>Telegram</h3><p></p><span class="btn btn-ghost">Me retrouver sur Telegram</span>
+      </a>
+    
+      <a class="card social reveal" href="https://x.com/KDoungous28379" target="_blank" rel="noopener noreferrer" style="--c:#000">
+        <i class="brand" style="--i:x"></i><h3>X</h3><p></p><span class="btn btn-ghost">Me suivre sur X</span>
+      </a>
+      <a class="card social reveal" href="https://www.snapchat.com/add/le-ked?share_id=SSt9bfFw_wM&amp;locale=fr-FR" target="_blank" rel="noopener noreferrer" style="--c:#e6c800">
+        <i class="brand" style="--i:snapchat"></i><h3>Snapchat</h3><p></p><span class="btn btn-ghost">M'ajouter sur Snapchat</span>
+      </a>
+      <a class="card social reveal" href="https://www.linkedin.com/in/adoum-doungous-kevine-dieu-merci-4a950341a?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer" style="--c:#0A66C2">
+        <i class="brand" style="--i:linkedin"></i><h3>LinkedIn</h3><p></p><span class="btn btn-ghost">Voir mon profil LinkedIn</span>
+      </a>
+      <a class="card social reveal" href="https://www.facebook.com/kedvine.doungous" target="_blank" rel="noopener noreferrer" style="--c:#1877F2">
+        <i class="brand" style="--i:facebook"></i><h3>Facebook</h3><p></p><span class="btn btn-ghost">Me retrouver sur Facebook</span>
+      </a>
+      <a class="card social reveal" href="https://wa.me/23672192608?text=Bonjour%20LE%20KED%2C%20je%20viens%20de%20visiter%20ton%20portfolio%20et%20je%20souhaite%20te%20contacter." target="_blank" rel="noopener noreferrer" style="--c:#25D366">
+        <i class="brand" style="--i:whatsapp"></i><h3>WhatsApp</h3><p></p><span class="btn btn-ghost">Me contacter sur WhatsApp</span>
+      </a>
+        <a class="card social reveal" href="https://instagram.com/le_ked19?rpxt=MWtjNGxhMWlwdm9nZA==" target="_blank" rel="noopener noreferrer" style="--c:#FF69B4">
+        <i class="brand" style="--i:Instragram
+        "></i><h3>Instagram</h3><p></p><span class="btn btn-ghost">Instagram</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="contact">
+  <div class="container contact reveal">
+    <h2>Travaillons ensemble</h2>
+    <p class="lead">Un projet, une question ou une idée de collaboration ? Écrivez-moi, je réponds avec plaisir.</p>
+    <div class="actions center">
+      <a class="btn btn-primary" href="https://wa.me/23672192608?text=Bonjour%20LE%20KED%2C%20je%20viens%20de%20visiter%20ton%20portfolio%20et%20je%20souhaite%20te%20contacter." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/adoum-doungous-kevine-dieu-merci-4a950341a?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="btn btn-primary" href="https://t.me/Leked19" target="_blank" rel="noopener noreferrer">Telegram</a>
+      <a class="btn btn-primary" href="mailto:kevineddoungous@gmail.com?subject=Contact%20depuis%20le%20portfolio">E-mail</a>
+    </div>
+   
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <a class="logo" href="#accueil"><img src="assets/logo-le-ked.png" alt="" width="44" height="44"><span>LE KED</span></a>
+    <ul class="footer-links">
+      <li><a href="#accueil">Accueil</a></li><li><a href="#apropos">À propos</a></li><li><a href="#parcours">Parcours</a></li><li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li><li><a href="#reseaux">Réseaux sociaux</a></li><li><a href="#contact">Contact</a></li>
+    </ul>
+    <ul class="footer-social">
+      <li><a href="https://t.me/Leked19" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><i class="brand" style="--i:telegram"></i></a></li>
+      <li><a href="https://x.com/KDoungous28379" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="brand" style="--i:x"></i></a></li>
+      <li><a href="https://www.snapchat.com/add/le-ked?share_id=SSt9bfFw_wM&amp;locale=fr-FR" target="_blank" rel="noopener noreferrer" aria-label="Snapchat"><i class="brand" style="--i:snapchat"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/adoum-doungous-kevine-dieu-merci-4a950341a?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="brand" style="--i:linkedin"></i></a></li>
+      <li><a href="https://www.facebook.com/kedvine.doungous" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="brand" style="--i:facebook"></i></a></li>
+      <li><a href="https://wa.me/23672192608" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="brand" style="--i:whatsapp"></i></a></li>
+      <li><a href="mailto:kevineddoungous@gmail.com?subject=Contact%20depuis%20le%20portfolio" aria-label="Envoyer un e-mail"><svg class="mail-ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a></li>
+    </ul>
+    <p class="copy">© 2026 LE KED — Tous droits réservés.</p>
+  </div>
+</footer>
+
+<div class="welcome" id="welcome" role="status" hidden>Bienvenue sur mon portfolio 👋</div>
+<button class="to-top" id="toTop" aria-label="Revenir en haut de la page" hidden>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 14 6-6 6 6"/></svg>
+</button>
+<script src="script.js" defer></script>
+</body>
+</html>
